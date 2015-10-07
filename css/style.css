@@ -33,7 +33,7 @@
 .navbar-nav>li>a {
     padding-top: 20px;
     padding-bottom: 20px;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 16px;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
@@ -284,6 +284,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
+    /*text-shadow: 0 1px 2px rgba(0,0,0,0.6);*/
 }
 a {
     outline: 0;
@@ -519,6 +520,7 @@ p {
 .header-center h1 {
     font-weight: 600;
     font-size: 60px;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.6);
     
 }
 .header-center h1 span {
@@ -535,6 +537,7 @@ p {
 .header-center p {
     font-size: 22px;
     font-weight: 300;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.6);
 }
 .header-center a {
     color: #FFF;
@@ -694,13 +697,14 @@ p {
     z-index: 2;
 }
 .section-title .title {
-    font-family:'Raleway', sans-serif;
+    font-family:'Open Sans', sans-serif;
     font-weight: 900;
     font-size: 40px;
     line-height: 60px;
     letter-spacing: -1px;
     margin-bottom: 0;
     color: #25292c;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.6);
 }
 .section-title .subtitle {
     font-size: 20px;
@@ -1589,7 +1593,7 @@ p {
     height: 100%;
     left: 0;
     top: 0;
-    background: rgba(37, 41, 44, 0.7);
+    background: rgba(37, 41, 44, 0.1);
     z-index: 1;
 }
 .content-home-wrapper {
@@ -1635,6 +1639,40 @@ p {
 .soc-btn{
     font-size: -webkit-xxx-large;
     color: #666 !important;
+}
+
+/* OWL CAROUSEL STYLES */
+
+#demo{
+	background-color:#fff;
+	}
+
+#owl-demo .item{
+        background: transparent;
+        padding: 30px 0px;
+        margin: 10px;
+        color: #999;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        text-align: center;
+    }
+    .customNavigation{
+      text-align: center;
+    }
+    .customNavigation a{
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+.cta{
+    font-weight: 600;
+    font-size: x-large;
+    line-height: 2;
 }
 
 /*
